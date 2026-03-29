@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joshi Pastry Shop – Fresh Cakes & Pastries in Pune</title>
+    <meta name="description"
+        content="Joshi Pastry Shop – Freshly baked cakes, pastries & snacks in Pune. Custom cakes for birthdays & weddings. Order on WhatsApp for home delivery!" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/9108449777866?text=Hi%2C%20I%20want%20to%20place%20an%20order%20from%20Joshi%20Pastry%20Shop!"
+        class="float-wa" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        Order on WhatsApp
+    </a>
+
+    <!-- NAV -->
+    <nav>
+        <a href="#hero" class="nav-logo">🧁 Joshi Pastry Shop</a>
+        <div class="nav-links" id="nav-links">
+            <a href="#menu">Menu</a>
+            <a href="#why">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    </nav>
+
+    <!-- ══ HERO ══ -->
+    <section id="hero">
+        <div class="hero-text">
+            <div class="hero-badge">🏆 Favourite Pastry Shop </div>
+            <h1 class="hero-title">
+                Fresh Bakes,<br>
+                <span>Every Single Day</span>
+            </h1>
+            <p class="hero-tagline">
+                Homemade cakes, melt-in-mouth pastries &amp; custom cakes for every occasion — made fresh every morning
+                in Pune.
+            </p>
+            <div class="hero-btns">
+                <a href="https://wa.me/9108449777866?text=Hi%2C%20I%20want%20to%20place%20an%20order!" class="btn-wa"
+                    target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Order on WhatsApp
+                </a>
+                <a href="#menu" class="btn-outline">📋 See Full Menu</a>
+            </div>
+            <div class="hero-trust">
+                <div class="hero-trust-item">
+                    <div class="dot"></div>Custom Birthday Cakes
+                </div>
+                <div class="hero-trust-item">
+                    <div class="dot"></div>Free Delivery Nearby
+                </div>
+                <div class="hero-trust-item">
+                    <div class="dot"></div>Open 7 Days
+                </div>
+            </div>
+        </div>
+        <div class="hero-images">
+            <div class="hero-img-card">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Birthday Cake"
+                    loading="eager" />
+                <div class="hero-img-label">🎂 Custom Cakes</div>
+            </div>
+            <div class="hero-img-card">
+                <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400&q=80" alt="Fresh Pastries"
+                    loading="eager" />
+                <div class="hero-img-label">🥐 Fresh Pastries</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ MENU ══ -->
+    <section id="menu">
+        <p class="section-label">🍰 Our Menu</p>
+        <h2 class="section-title">What We Bake Fresh Daily</h2>
+        <p class="section-sub">Everything is made fresh every morning. No preservatives, no shortcuts — just pure taste.
+        </p>
+
+        <div class="menu-cats">
+            <button class="menu-cat-btn active" onclick="filterMenu('all',this)">All Items</button>
+            <button class="menu-cat-btn" onclick="filterMenu('cake',this)">🎂 Cakes</button>
+            <button class="menu-cat-btn" onclick="filterMenu('pastry',this)">🥐 Pastries</button>
+            <button class="menu-cat-btn" onclick="filterMenu('snack',this)">🥪 Snacks</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+
+            <!-- CAKES -->
+            <div class="menu-card reveal" data-cat="cake">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&q=80"
+                    alt="Chocolate Truffle Cake" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Chocolate Truffle Cake</div>
+                    <div class="menu-card-desc">Rich dark chocolate layers with smooth ganache frosting. A
+                        crowd-favourite!</div>
+                    <div class="menu-card-price">Starting ₹399 / 500g</div>
+                </div>
+            </div>
+
+            <div class="menu-card reveal" data-cat="cake">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=400&q=80"
+                    alt="Vanilla Birthday Cake" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Vanilla Birthday Cake</div>
+                    <div class="menu-card-desc">Classic vanilla sponge with fresh cream. Custom message &amp; design
+                        available.</div>
+                    <div class="menu-card-price">Starting ₹349 / 500g</div>
+                </div>
+            </div>
+
+            <div class="menu-card reveal" data-cat="cake">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1565661152050-ffd85fb8c8c0?w=400&q=80"
+                    alt="Custom Wedding Cake" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Custom Wedding Cake</div>
+                    <div class="menu-card-desc">Multi-tier cakes designed just for your special day. Advance booking
+                        needed.</div>
+                    <div class="menu-card-price">Starting ₹2,500</div>
+                </div>
+            </div>
+
+            <div class="menu-card reveal" data-cat="cake">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&q=80"
+                    alt="Black Forest Cake" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Black Forest Cake</div>
+                    <div class="menu-card-desc">Chocolate sponge with cherries &amp; whipped cream. Nostalgic &amp;
+                        delicious.</div>
+                    <div class="menu-card-price">Starting ₹379 / 500g</div>
+                </div>
+            </div>
+
+            <!-- PASTRIES -->
+            <div class="menu-card reveal" data-cat="pastry">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400&q=80"
+                    alt="Fresh Croissant" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Butter Croissant</div>
+                    <div class="menu-card-desc">Flaky, golden &amp; buttery. Baked fresh every morning. Best eaten warm!
+                    </div>
+                    <div class="menu-card-price">₹45 each</div>
+                </div>
+            </div>
+
+            <div class="menu-card reveal" data-cat="pastry">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?w=400&q=80"
+                    alt="Strawberry Pastry" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Strawberry Pastry</div>
+                    <div class="menu-card-desc">Light sponge with fresh strawberry cream. Kids absolutely love this!
+                    </div>
+                    <div class="menu-card-price">₹65 each</div>
+                </div>
+            </div>
+
+            <div class="menu-card reveal" data-cat="pastry">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1509365390695-33aee754301f?w=400&q=80"
+                    alt="Chocolate Eclairs" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Chocolate Eclairs</div>
+                    <div class="menu-card-desc">Choux pastry filled with custard cream &amp; topped with chocolate
+                        glaze.</div>
+                    <div class="menu-card-price">₹55 each</div>
+                </div>
+            </div>
+
+            <!-- SNACKS -->
+            <div class="menu-card reveal" data-cat="snack">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80"
+                    alt="Veg Puff" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Veg Puff</div>
+                    <div class="menu-card-desc">Crispy puff pastry with spiced potato &amp; peas filling. Perfect
+                        evening snack.</div>
+                    <div class="menu-card-price">₹25 each</div>
+                </div>
+            </div>
+
+            <div class="menu-card reveal" data-cat="snack">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80"
+                    alt="Chocolate Muffins" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Choco Chip Muffin</div>
+                    <div class="menu-card-desc">Moist chocolate muffin with lots of chocolate chips. Great for tiffin
+                        too!</div>
+                    <div class="menu-card-price">₹55 each</div>
+                </div>
+            </div>
+
+            <div class="menu-card reveal" data-cat="snack">
+                <img class="menu-card-img" src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80"
+                    alt="Cookies" loading="lazy" />
+                <div class="menu-card-body">
+                    <div class="menu-card-name">Butter Cookies (Box)</div>
+                    <div class="menu-card-desc">Crispy homemade butter cookies. Great as gifts or for festive occasions.
+                    </div>
+                    <div class="menu-card-price">₹149 / box of 12</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="menu-wa-row reveal">
+            <div>
+                <div class="menu-wa-text">Don't see what you want? <span>We take custom orders!</span></div>
+                <p style="font-size:.85rem;color:var(--text-mid);margin-top:4px;">Just message us on WhatsApp — we'll
+                    make it fresh for you.</p>
+            </div>
+            <a href="https://wa.me/9108449777866?text=Hi%2C%20I%20have%20a%20custom%20order%20request!" class="btn-wa"
+                target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                Chat on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- ══ WHY CHOOSE US ══ -->
+    <section id="why">
+        <p class="section-label">💛 Why Customers Love Us</p>
+        <h2 class="section-title">What Makes Us Different</h2>
+        <p class="section-sub">20+ years of baking love. Here's why your neighbours keep coming back.</p>
+        <div class="why-grid">
+            <div class="why-card reveal">
+                <span class="why-icon">🌾</span>
+                <div class="why-title">100% Fresh Ingredients</div>
+                <div class="why-desc">We use only fresh milk, real butter, and quality flour. No artificial
+                    preservatives — ever. Your health matters to us.</div>
+            </div>
+            <div class="why-card reveal">
+                <span class="why-icon">🎂</span>
+                <div class="why-title">Custom Cakes for Any Occasion</div>
+                <div class="why-desc">Birthday, anniversary, baby shower, wedding — tell us your design and we'll bake
+                    it fresh, just for you.</div>
+            </div>
+            <div class="why-card reveal">
+                <span class="why-icon">⚡</span>
+                <div class="why-title">Same-Day Orders Welcome</div>
+                <div class="why-desc">Need a cake today? Just call or WhatsApp us by 10 AM. We'll have it ready same
+                    evening for you.</div>
+            </div>
+            <div class="why-card reveal">
+                <span class="why-icon">🏘️</span>
+                <div class="why-title">Pune's Local Favourite</div>
+                <div class="why-desc">Serving families in this area since 2005. Thousands of happy customers and
+                    counting — ask your neighbours!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ GALLERY ══ -->
+    <section id="gallery">
+        <p class="section-label">📸 Fresh From the Oven</p>
+        <h2 class="section-title">Our Best Bakes</h2>
+        <p class="section-sub">Real photos. Real food. No filters — this is exactly what you'll get.</p>
+        <div class="gallery-grid">
+            <div class="g-card tall reveal">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80" alt="Tall cake"
+                    loading="lazy" />
+                <div class="g-overlay"><span>🎂 Custom Cake</span></div>
+            </div>
+            <div class="g-card reveal">
+                <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?w=400&q=80" alt="Pastry"
+                    loading="lazy" />
+                <div class="g-overlay"><span>🍓 Strawberry Pastry</span></div>
+            </div>
+            <div class="g-card reveal">
+                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80" alt="Cookies"
+                    loading="lazy" />
+                <div class="g-overlay"><span>🍪 Butter Cookies</span></div>
+            </div>
+            <div class="g-card reveal">
+                <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&q=80" alt="Chocolate cake"
+                    loading="lazy" />
+                <div class="g-overlay"><span>🍫 Chocolate Cake</span></div>
+            </div>
+            <div class="g-card reveal">
+                <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400&q=80" alt="Croissant"
+                    loading="lazy" />
+                <div class="g-overlay"><span>🥐 Croissants</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ REVIEWS ══ -->
+    <section id="reviews">
+        <p class="section-label">⭐ Customer Reviews</p>
+        <h2 class="section-title">What People Are Saying</h2>
+        <p class="section-sub">Don't just take our word for it — here's what your neighbours think!</p>
+        <div class="reviews-grid">
+            <div class="review-card reveal">
+                <div class="review-quote">"</div>
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">Ordered a custom birthday cake for my daughter's 5th birthday. The design was
+                    exactly what I asked for, and the taste was absolutely amazing! All the kids loved it. Will
+                    definitely order again.</div>
+                <div class="review-author">Priya Mehta</div>
+                <div class="review-location">📍 Kothrud, Pune</div>
+            </div>
+            <div class="review-card reveal">
+                <div class="review-quote">"</div>
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">The veg puffs and croissants are the best in the area. I buy them every Sunday
+                    morning. Fresh, crispy, and the taste is just like homemade. Very reasonable prices too!</div>
+                <div class="review-author">Rahul Sharma</div>
+                <div class="review-location">📍 Karve Nagar, Pune</div>
+            </div>
+            <div class="review-card reveal">
+                <div class="review-quote">"</div>
+                <div class="review-stars">★★★★★</div>
+                <div class="review-text">I called at 9 AM for a same-day anniversary cake — they delivered a beautiful
+                    cake by 6 PM! The chocolate truffle was rich and not too sweet. My wife was very happy. Thank you
+                    Joshi bhai!</div>
+                <div class="review-author">Vikram Deshpande</div>
+                <div class="review-location">📍 Deccan, Pune</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ CONTACT ══ -->
+    <section id="contact">
+        <p class="section-label">📍 Find Us</p>
+        <h2 class="section-title">Visit or Order Today</h2>
+        <p class="section-sub">We're open every day. Come visit us or just WhatsApp your order!</p>
+        <div class="contact-grid">
+            <div class="map-wrap reveal">
+                <!-- Replace src with your actual Google Maps embed link -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14020.626780559687!2d77.07157088715822!3d28.535009500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b382a113631%3A0xf3a3f28075ee7068!2sJoshi%20Pastry%20Shop!5e0!3m2!1sen!2sin!4v1774766469406!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="contact-info">
+                <div class="contact-block reveal">
+                    <div class="contact-block-title">📍 Address</div>
+                    <p>
+                        <strong>Joshi Pastry Shop</strong><br />
+                        Shop No. 4, Near Bus Stop,<br />
+                        Old Gurugoan Road, Samalkha – 110037<br />
+                        New Delhi, India
+                    </p>
+                </div>
+                <div class="contact-block reveal">
+                    <div class="contact-block-title">🕐 Opening Hours</div>
+                    <p>
+                        <strong>Monday – Saturday:</strong> 7:00 AM – 9:00 PM<br />
+                        <strong>Sunday:</strong> 7:00 AM – 2:00 PM<br />
+                        <strong>Public Holidays:</strong> Open (limited menu)
+                    </p>
+                </div>
+                <div class="contact-btns reveal">
+                    <a href="tel:+919876543210" class="btn-call">
+                        📞 Call Us: +91 084497 77866
+                    </a>
+                    <a href="https://wa.me/9108449777866?text=Hi%2C%20I%20want%20to%20place%20an%20order%20from%20Joshi%20Pastry%20Shop!"
+                        class="btn-wa-full" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="foot-logo">🧁 Joshi Pastry Shop</div>
+        <div class="foot-links">
+            <a href="#menu">Menu</a>
+            <a href="#why">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>Shop No. 4, Near Samalkha, Old Gurugoan Road - 110037 &nbsp;|&nbsp; +91 98XXX XXXXX</p>
+        <p style="margin-top:8px">© 2026 Joshi Pastry Shop. Made with ❤️ in Delhi</p>
+    </footer>
+
+    <script>
+        /* ── Nav hamburger ── */
+        const toggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        toggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            toggle.classList.toggle('open');
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                toggle.classList.remove('open');
+            });
+        });
+
+        // ── SCROLL REVEAL ──
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((e, i) => {
+                if (e.isIntersecting) {
+                    setTimeout(() => e.target.classList.add('visible'), i * 80);
+                    observer.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(el => observer.observe(el));
+
+        // ── MENU FILTER ──
+        function filterMenu(cat, btn) {
+            document.querySelectorAll('.menu-cat-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            document.querySelectorAll('.menu-card').forEach(card => {
+                const show = cat === 'all' || card.dataset.cat === cat;
+                card.style.display = show ? 'block' : 'none';
+            });
+        }
+
+        // ── NAV ACTIVE LINK ──
+        const sections = document.querySelectorAll('section[id]');
+        const navLinksActive = document.querySelectorAll('.nav-links a');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(s => {
+                if (window.scrollY >= s.offsetTop - 80) current = s.id;
+            });
+            navLinks.forEach(a => {
+                a.style.color = a.getAttribute('href') === '#' + current ? 'var(--caramel-light)' : '';
+                a.style.opacity = a.getAttribute('href') === '#' + current ? '1' : '';
+            });
+        });
+    </script>
+</body>
+
+</html>
